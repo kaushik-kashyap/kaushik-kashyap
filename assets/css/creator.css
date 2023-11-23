@@ -81,6 +81,18 @@ renable in case bad happens
 }
  */
 
+@media (max-width:800px) {
+    .myeec img {
+        left: 33%;
+    }
+
+    .myeec::before {
+        left: 33%;
+    }
+
+}
+
+
 
 @media (max-width:680px) {
     .myeec img {
