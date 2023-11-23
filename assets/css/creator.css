@@ -66,6 +66,9 @@ html {
     }
 }
 
+/* 
+renable in case bad happens
+
 @media (max-width:680px) {
     .myeec img {
         left: 19%;
@@ -73,6 +76,30 @@ html {
 
     .myeec::before {
         left: 19%;
+    }
+
+}
+ */
+
+
+@media (max-width:680px) {
+    .myeec img {
+        left: 28%;
+    }
+
+    .myeec::before {
+        left: 28%;
+    }
+
+}
+
+@media (max-width:555px) {
+    .myeec img {
+        left: 23%;
+    }
+
+    .myeec::before {
+        left: 23%;
     }
 
 }
